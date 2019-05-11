@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.2.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-05-08 15:42:41+0000\n"
+"PO-Revision-Date: 2019-05-10 16:21:54+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -406,7 +406,7 @@ msgstr "Característica activada"
 
 #: wp-includes/js/dist/edit-post.js:2996
 msgid "Feature deactivated"
-msgstr "Característica desacdtivada"
+msgstr "Característica desactivada"
 
 #: wp-includes/js/dist/edit-post.js:1430 wp-includes/js/dist/edit-post.js:4215
 msgid "Block Manager"
@@ -481,7 +481,7 @@ msgstr "Error al almacenar el error."
 
 #: wp-includes/class-wp-recovery-mode.php:172
 msgid "Error not caused by a plugin or theme."
-msgstr "Error no causado por un plugin o tema."
+msgstr "Error no provocado por un plugin o tema."
 
 #. translators: %s: site name
 #: wp-includes/class-wp-recovery-mode-email-service.php:177
@@ -490,7 +490,7 @@ msgstr "[%s] Tu sitio tiene problemas técnicos"
 
 #: wp-includes/class-wp-recovery-mode-email-service.php:117
 msgid "Error Details"
-msgstr "Detalles del Error"
+msgstr "Detalles del error"
 
 #. translators: 1. Last sent as a human time diff 2. Wait time as a human time
 #. diff.
@@ -498,7 +498,7 @@ msgstr "Detalles del Error"
 msgid "A recovery link was already sent %1$s ago. Please wait another %2$s before requesting a new email."
 msgstr "Ya se ha enviado un enlace de recuperación hace %1$s. Por favor, espera otro %2$s antes de solicitar un nuevo correo electrónico."
 
-#: wp-includes/class-wp-recovery-mode-email-service.php:65
+#: wp-login.php:429 wp-includes/class-wp-recovery-mode-email-service.php:65
 msgid "The email could not be sent. Possible reason: your host may have disabled the mail() function."
 msgstr "No se ha podido enviar el correo electrónico. Posible motivo: es posible que tu hospedaje haya desactivado la función mail()."
 
@@ -520,7 +520,7 @@ msgstr "Formato de clave de recuperación no válido"
 
 #: wp-includes/class-wp-recovery-mode-key-service.php:97
 msgid "Recovery Mode not initialized."
-msgstr "El modo de recuperación no está inicializado."
+msgstr "El modo de recuperación no se ha inicializado."
 
 #. translators: user role for subscriber
 #: wp-includes/capabilities.php:994
@@ -554,7 +554,7 @@ msgstr "Administrador"
 
 #: wp-includes/customize/class-wp-customize-media-control.php:240
 msgid "Select site icon"
-msgstr "Seleccionar icono de sitio"
+msgstr "Seleccionar icono del sitio"
 
 #: wp-includes/user.php:3353
 msgid "An incomplete request for this email address already exists."
@@ -566,7 +566,7 @@ msgstr "Lista de adjuntos"
 
 #: wp-includes/class-wp-customize-widgets.php:780
 msgid "Keep widget settings and move it to the inactive widgets"
-msgstr "Mantener la configuración del widget y moverlo a los widgets inactivos"
+msgstr "Mantener los ajustes del widget y moverlo a los widgets inactivos"
 
 #. translators: 1: link start tag, 2: accessibility text, 3: link end tag
 #: wp-includes/media-template.php:167
@@ -625,8 +625,8 @@ msgstr "Salir del modo de recuperación"
 #: wp-includes/admin-bar.php:890
 msgid "%s Comment in moderation"
 msgid_plural "%s Comments in moderation"
-msgstr[0] "%s Comentario en moderación"
-msgstr[1] "%s Comentarios en moderación"
+msgstr[0] "%s comentario en moderación"
+msgstr[1] "%s comentarios en moderación"
 
 #: wp-content/plugins/hello.php:62
 msgid "Quote from Hello Dolly song, by Jerry Herman:"
@@ -676,7 +676,7 @@ msgstr "Las rutas de la API REST deben registrarse en la acción %s."
 #. translators: used to join last two items in a list with more than 2 times
 #: wp-includes/formatting.php:4916
 msgid "%1$s, and %2$s"
-msgstr "%1$s, y %2$s"
+msgstr "%1$s y %2$s"
 
 #: wp-includes/post.php:417
 msgid "Failed <span class=\"count\">(%s)</span>"
@@ -701,7 +701,7 @@ msgstr "Parece que ya se ha cancelado la inicialización del sitio."
 #. translators: %d: site ID
 #: wp-includes/ms-site.php:692
 msgid "Site %d"
-msgstr "%d del sitio"
+msgstr "Sitio %d"
 
 #: wp-includes/ms-site.php:679
 msgid "The site appears to be already initialized."
@@ -805,7 +805,7 @@ msgstr "Este tema no se ha cargado correctamente y se ha puesto en pausa en el e
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:368
 msgid "Whether to show the taxonomy in the quick/bulk edit panel."
-msgstr "Si mostrar la taxonomía en el panel de edición rápida/en lote."
+msgstr "Si mostrar la taxonomía en el panel de edición rápida/en lotes."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:364
 msgid "Whether to make the taxonomy available for selection in navigation menus."
@@ -833,7 +833,7 @@ msgstr "<strong>ERROR</strong>: No hay ninguna cuenta con ese nombre de usuario 
 
 #: wp-includes/js/dist/nux.js:881
 msgid "Editor tips"
-msgstr "Trucos para el editor"
+msgstr "Trucos del editor"
 
 #: wp-includes/js/dist/block-library.js:9113
 msgctxt "content placeholder"
@@ -1339,7 +1339,7 @@ msgstr "Bloque no reconocido"
 
 #: wp-includes/js/dist/block-library.js:5367
 msgid "Your site doesn’t include support for the \"%s\" block. You can leave this block intact or remove it entirely."
-msgstr "Tu sitio no incluye compatibilidad con el bloque \"%s\". Puedes dejar intacto este bloque o quitarlo del todo."
+msgstr "Tu sitio no incluye compatibilidad con el bloque «%s». Puedes dejar intacto este bloque o quitarlo del todo."
 
 #: wp-includes/js/dist/block-library.js:5365
 msgid "Keep as HTML"
@@ -1347,7 +1347,7 @@ msgstr "Mantener como HTML"
 
 #: wp-includes/js/dist/block-library.js:5359
 msgid "Your site doesn’t include support for the \"%s\" block. You can leave this block intact, convert its content to a Custom HTML block, or remove it entirely."
-msgstr "Tu sitio no incluye compatibilidad con el bloque \"%s\". Puedes dejar intacto este bloque, convertir su contenido a un bloque de HTML personalizado o quitarlo del todo."
+msgstr "Tu sitio no incluye compatibilidad con el bloque «%s». Puedes dejar intacto este bloque, convertir su contenido a un bloque de HTML personalizado o quitarlo del todo."
 
 #: wp-includes/js/dist/block-library.js:9010
 msgid "Media area"
@@ -1644,7 +1644,7 @@ msgstr "Introduce aquí la URL a incrustar…"
 
 #: wp-includes/js/dist/block-library.js:4255
 msgid "%s URL"
-msgstr "%s URL"
+msgstr "URL de %s"
 
 #: wp-includes/js/dist/block-library.js:3727
 msgid "Embedding…"
@@ -3691,7 +3691,7 @@ msgstr "Los nombres de tipo de bloque no deben contener caracteres en mayúscula
 
 #: wp-includes/class-wp-block-type-registry.php:57
 msgid "Block type names must be strings."
-msgstr "Los nombres de tipo de bloque deben ser cadenas."
+msgstr "Los nombres del tipo de bloque deben ser cadenas."
 
 #: wp-includes/blocks/latest-comments.php:147
 msgid "No comments to show."
@@ -6501,7 +6501,7 @@ msgstr "Limitar el conjunto de resultados a las entradas asignadas a uno o más 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:557
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:734
 msgid "Comment field exceeds maximum length allowed."
-msgstr "El campo de comentario excede la longitud máxima permitida."
+msgstr "El campo del comentario excede la longitud máxima permitida."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:299
 msgid "Taxonomies associated with post type."
@@ -9113,7 +9113,7 @@ msgstr "Vista previa como un icono de aplicación"
 
 #: wp-includes/media-template.php:1334
 msgid "As an app icon"
-msgstr "Como un icono de aplicación"
+msgstr "Como icono de aplicación"
 
 #: wp-includes/media-template.php:1329
 #: wp-includes/customize/class-wp-customize-site-icon-control.php:65
@@ -9122,7 +9122,7 @@ msgstr "Vista previa como un icono del navegador"
 
 #: wp-includes/media-template.php:1324
 msgid "As a browser icon"
-msgstr "Como un icono del navegador"
+msgstr "Como icono del navegador"
 
 #: wp-includes/class-wp-customize-nav-menus.php:1141
 msgid "No items"
@@ -10030,7 +10030,7 @@ msgstr "Los siguientes valores no describen una fecha válida: mes %1$s, día %2
 
 #: wp-includes/taxonomy.php:2233
 msgid "A term with the name provided already exists in this taxonomy."
-msgstr "Un término con el nombre y el slug ya existe en esta taxonomía."
+msgstr "Ya existe en esta taxonomía un término con el nombre y el slug facilitados."
 
 #. translators: %s: database access abstraction class, usually wpdb or a class
 #. extending wpdb
@@ -11652,10 +11652,6 @@ msgstr "El navegador web de tu dispositivo no puede subir archivos. Podrías pro
 msgid "<strong>ERROR</strong>: Couldn&#8217;t register you&hellip; please contact the <a href=\"mailto:%s\">webmaster</a> !"
 msgstr "<strong>ERROR</strong>: No te has podido registrar&hellip; por favor, ¡ponte en contacto con el <a href=\"mailto:%s\">webmaster</a> !"
 
-#: wp-login.php:429
-msgid "Possible reason: your host may have disabled the mail() function."
-msgstr "Posible razón: Tu alojamiento puede tener desactivada la función mail()"
-
 #: wp-includes/post-template.php:298
 msgid "(more&hellip;)"
 msgstr "(más&hellip;)"
@@ -11908,7 +11904,7 @@ msgstr "Subir imágenes"
 #: wp-includes/media-template.php:777
 #: wp-includes/js/dist/block-library.js:13275
 msgid "Gallery Settings"
-msgstr "Ajustes de galería"
+msgstr "Ajustes de la galería"
 
 #: wp-includes/media-template.php:666
 msgid "Attachment Display Settings"
@@ -11949,7 +11945,7 @@ msgstr "Parece ser que ya has instalado WordPress. Para volver a instalarlo borr
 
 #: wp-includes/ms-deprecated.php:617
 msgid "Already Installed"
-msgstr "Ya instalado"
+msgstr "Ya está instalado"
 
 #: wp-includes/ms-functions.php:1060
 msgid ""
@@ -12034,7 +12030,7 @@ msgstr "Actualizar galería"
 
 #: wp-includes/user.php:2443
 msgid "<strong>ERROR</strong>: This username is already registered. Please choose another one."
-msgstr "<strong>ERROR</strong>: Ese nombre de usuario ya está registrado. Por favor elige otro."
+msgstr "<strong>ERROR</strong>: Este nombre de usuario ya está registrado. Por favor, elige otro."
 
 #: wp-includes/ms-functions.php:481
 msgid "Please enter a valid email address."
@@ -12049,7 +12045,7 @@ msgstr "El usuario solicitado no existe."
 #: wp-includes/class-wp-image-editor-gd.php:409
 #: wp-includes/class-wp-image-editor-gd.php:412
 msgid "Image Editor Save Failed"
-msgstr "Fallo guardando la imagen"
+msgstr "Fallo en el guardado de editor de imágenes"
 
 #: wp-includes/class-wp-image-editor-gd.php:358
 msgid "Image flip failed."
@@ -12362,7 +12358,7 @@ msgstr "Lo siento, fallo editando el término."
 #: wp-includes/class-wp-xmlrpc-server.php:2242
 #: wp-includes/class-wp-xmlrpc-server.php:2321 wp-includes/taxonomy.php:2121
 msgid "Invalid term ID."
-msgstr "Id de término incorrecto."
+msgstr "ID de término incorrecto."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:151
 msgid "Sorry, you are not allowed to edit terms in this taxonomy."
@@ -12374,7 +12370,7 @@ msgstr "Lo siento, no tienes permisos para editar términos en esta taxonomía."
 #: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:537
 #: wp-includes/taxonomy.php:2135 wp-includes/taxonomy.php:2842
 msgid "Parent term does not exist."
-msgstr "No existe término padre."
+msgstr "No existe un término padre."
 
 #: wp-includes/class-wp-xmlrpc-server.php:2033
 msgid "This taxonomy is not hierarchical."
@@ -12437,7 +12433,7 @@ msgstr "Título de enlace"
 
 #: wp-includes/class-wp-theme.php:345 wp-includes/class-wp-theme.php:357
 msgid "The \"%s\" theme is not a valid parent theme."
-msgstr "El tema \"%s\" no es un tema padre válido."
+msgstr "El tema «%s» no es un tema padre válido."
 
 #: wp-includes/class-wp-theme.php:249
 msgid "Stylesheet is not readable."
@@ -12845,7 +12841,7 @@ msgstr "Debes especificar una acción «nonce» a verificar mediante el primer p
 #. translators: 1: site URL, 2: login URL
 #: wp-activate.php:192
 msgid "Your account is now activated. <a href=\"%1$s\">View your site</a> or <a href=\"%2$s\">Log in</a>"
-msgstr "Tu cuenta se ha activado. <a href=\"%1$s\">Visualiza tu sitio</a> o <a href=\"%2$s\">Accede</a>"
+msgstr "Tu cuenta se ha activado. <a href=\"%1$s\">Ve tu sitio</a> o <a href=\"%2$s\">accede</a>"
 
 #. translators: 1: login URL, 2: network home URL
 #: wp-activate.php:199
@@ -13043,15 +13039,15 @@ msgstr "Minientrada"
 
 #: wp-includes/post.php:1631
 msgid "No posts found in Trash."
-msgstr "Ningún post encontrado en la papelera."
+msgstr "Ningún entrada encontrada en la papelera."
 
 #: wp-includes/post.php:1630
 msgid "No pages found."
-msgstr "No se encontraron páginas."
+msgstr "No se encontró ninguna página."
 
 #: wp-includes/post.php:1631
 msgid "No pages found in Trash."
-msgstr "Ninguna página encontrada en la papelera."
+msgstr "No se encontró ninguna página en la papelera."
 
 #: wp-includes/script-loader.php:1769
 msgid "Network Enable"
@@ -13237,7 +13233,7 @@ msgstr "%1$s funciona gracias a %2$s"
 
 #: wp-includes/theme-compat/sidebar.php:71
 msgid "F, Y"
-msgstr "j F Y"
+msgstr "F, Y"
 
 #. translators: used to join items in a list with only 2 items
 #: wp-includes/formatting.php:4918
@@ -13701,22 +13697,22 @@ msgstr "Archivo cancelado."
 #. translators: %s: post title
 #: wp-includes/pluggable.php:1725
 msgid "A new comment on the post \"%s\" is waiting for your approval"
-msgstr "Un nuevo comentario en la entrada \"%s\" está esperando tu aprobación"
+msgstr "Un nuevo comentario en la entrada «%s» está esperando tu aprobación"
 
 #. translators: %s: post title
 #: wp-includes/pluggable.php:1715
 msgid "A new pingback on the post \"%s\" is waiting for your approval"
-msgstr "Un nuevo pingback en la entrada \"%s\" está esperando tu aprobación"
+msgstr "Un nuevo pingback en la entrada «%s» está esperando tu aprobación"
 
 #. translators: %s: post title
 #: wp-includes/pluggable.php:1705
 msgid "A new trackback on the post \"%s\" is waiting for your approval"
-msgstr "Un nuevo trackback en la entrada \"%s\" espera tu aprobación."
+msgstr "Un nuevo trackback en la entrada «%s» espera tu aprobación."
 
 #. translators: %s: post title
 #: wp-includes/pluggable.php:1543
 msgid "New pingback on your post \"%s\""
-msgstr "Nuevo pingback en tu entrada \"%s\""
+msgstr "Nuevo pingback en tu entrada «%s»"
 
 #. translators: %s: post title
 #: wp-includes/pluggable.php:1556
@@ -13765,7 +13761,7 @@ msgstr "Taxonomía:"
 #: wp-includes/widgets/class-wp-nav-menu-widget.php:29
 #: wp-includes/taxonomy.php:114
 msgid "Navigation Menu"
-msgstr "Menú de Navegación"
+msgstr "Menú de navegación"
 
 #: wp-includes/widgets/class-wp-nav-menu-widget.php:153
 msgid "Select Menu:"
@@ -13980,11 +13976,11 @@ msgstr "No se permite el registro de nuevos usuarios."
 
 #: wp-signup.php:930
 msgid "Registration has been disabled."
-msgstr "Los registros están deshabilitados."
+msgstr "Los registros están desactivados."
 
 #: wp-signup.php:834
 msgid "Still waiting for your email?"
-msgstr "¿Continúas esperando el correo electrónico?"
+msgstr "¿Sigues esperando tu correo electrónico?"
 
 #: wp-signup.php:741
 msgid "Signup"
@@ -14036,7 +14032,7 @@ msgstr "Privacidad:"
 #. translators: %s: POP3 error
 #: wp-mail.php:249
 msgid "Oops: %s"
-msgstr "Oops: %s"
+msgstr "Vaya: %s"
 
 #. translators: Post author email address
 #: wp-mail.php:135
@@ -14115,10 +14111,6 @@ msgstr "<strong>ERROR</strong>: Por favor, escribe tu dirección de correo elect
 #: wp-includes/user.php:3621
 msgid "Invalid key."
 msgstr "Clave no válida."
-
-#: wp-login.php:429
-msgid "The email could not be sent."
-msgstr "No se pudo enviar el correo electrónico."
 
 #. translators: Password reset notification email subject. %s: Site title
 #: wp-login.php:399
@@ -14207,7 +14199,7 @@ msgstr "Guardando..."
 
 #: wp-includes/script-loader.php:1665
 msgid "Remove From Bulk Edit"
-msgstr "Quitar desde la edición múltiple"
+msgstr "Quitar de la edición en lotes"
 
 #: wp-includes/script-loader.php:1664 wp-includes/script-loader.php:1677
 msgid "Error while saving the changes."
@@ -14280,7 +14272,7 @@ msgstr "Solo puedes subir 1 archivo."
 
 #: wp-includes/script-loader.php:1124
 msgid "There was a configuration error. Please contact the server administrator."
-msgstr "Ha habido un problema con la configuración. Por favor, contacta con el  administrador del servidor."
+msgstr "Ha habido un problema de configuración. Por favor, contacta con el  administrador del servidor."
 
 #: wp-includes/script-loader.php:1123
 msgid "An error occurred in the upload. Please try again later."
@@ -14296,7 +14288,7 @@ msgstr "Has intentado poner en cola demasiados archivos."
 
 #: wp-includes/script-loader.php:1105
 msgid "This feature requires inline frames. You have iframes disabled or your browser does not support them."
-msgstr "Esta función requiere de frames insertados. Tienes los iframes desactivados o tu navegador no los soporta."
+msgstr "Esta función requiere de frames integrados. Tienes los iframes desactivados o tu navegador no es compatible."
 
 #: wp-includes/script-loader.php:1103
 msgid "of"
@@ -14561,7 +14553,7 @@ msgstr "Clave de activación no válida"
 
 #: wp-includes/ms-functions.php:539
 msgid "That email address has already been used. Please check your inbox for an activation email. It will become available in a couple of days if you do nothing."
-msgstr "Este correo electrónico ya ha sido usado. Por favor, comprueba tu bandeja de entrada. Podría estar libre en un par de días si no haces nada."
+msgstr "Este correo electrónico ya ha sido utilizado. Por favor, comprueba tu bandeja de entrada. Podría estar libre en un par de días si no haces nada."
 
 #: wp-includes/ms-functions.php:528
 msgid "That username is currently reserved but may be available in a couple of days."
@@ -14633,7 +14625,7 @@ msgstr "Entrada anterior"
 
 #: wp-includes/link-template.php:751
 msgid "Comments Feed"
-msgstr "Feed de comentarios"
+msgstr "Feed de los comentarios"
 
 #: wp-includes/class-wp-editor.php:1277
 msgid "Insert Page Break tag"
@@ -15393,16 +15385,16 @@ msgstr "Comentario en %1$s por %2$s"
 #. translators: Comments feed title. %s: Site name
 #: wp-includes/feed-rss2-comments.php:45 wp-includes/feed-atom-comments.php:40
 msgid "Comments for %s"
-msgstr "Comentarios para %s"
+msgstr "Comentarios en %s"
 
 #. translators: Comments feed title. 1: Site name, 2: Search query
 #: wp-includes/feed-rss2-comments.php:42 wp-includes/feed-atom-comments.php:37
 msgid "Comments for %1$s searching on %2$s"
-msgstr "Comentarios para %1$s buscando en %2$s"
+msgstr "Comentarios en %1$s al buscar %2$s"
 
 #: wp-includes/post-template.php:1607 wp-includes/deprecated.php:1848
 msgid "Missing Attachment"
-msgstr "Falta el adjunto"
+msgstr "Adjunto no disponible"
 
 #: wp-includes/deprecated.php:963
 msgid "Last updated"
@@ -15592,15 +15584,15 @@ msgstr "Deja un comentario"
 
 #: wp-includes/comment-template.php:1843
 msgid "Click here to cancel reply."
-msgstr "Clic para cancelar respuesta."
+msgstr "Haz clic aquí para cancelar la respuesta."
 
 #: wp-includes/comment-template.php:1770
 msgid "Log in to leave a Comment"
-msgstr "Inicia sesión para dejar un comentario"
+msgstr "Accede para dejar un comentario"
 
 #: wp-includes/comment-template.php:1769
 msgid "Leave a Comment"
-msgstr "Dejar un comentario"
+msgstr "Deja un comentario"
 
 #: wp-includes/comment-template.php:1636
 msgid "Log in to Reply"
