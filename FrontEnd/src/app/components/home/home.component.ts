@@ -10,18 +10,19 @@ import { Media } from 'src/app/models/image';
 })
 export class HomeComponent implements OnInit {
 
-  image: Media[];
+  image = [];
 
   constructor(private wordPressServ: WordpressApiService) { }
 
   ngOnInit() {
     this.wordPressServ.getImage().subscribe(
-    (response: Media[]) =>{
-      if(response){
-        this.image = response;
-      }else{
-        this.image = [];
-      }
+    response =>{
+       for (let img in response){
+        if(response.hasOwnProperty(img)){
+          this.image.push(response[img]);
+          console.log(this.image);
+        }
+       }
     }
     );
     
