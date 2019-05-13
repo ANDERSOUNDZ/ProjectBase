@@ -8,8 +8,8 @@ export class WordpressApiService {
 
   constructor( public httpClient: HttpClient) { }
 
-  getImage(){
-    return this.httpClient.get(`http://localhost:8888/NankingsProjectBase/BackEnd/wp-json/wp/v2/media`);
+  getMedia(){
+    return this.httpClient.get(`http://localhost:8888/ProjectBase/BackEndWP/wp-json/wp/v2/media`);
   }
 
 }

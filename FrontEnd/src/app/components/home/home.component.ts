@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { WordpressApiService } from 'src/app/service/wordpress-api.service';
-import { Media } from 'src/app/models/image';
+import { Media, Multimed } from 'src/app/models/image';
 
 
 @Component({
@@ -10,12 +10,25 @@ import { Media } from 'src/app/models/image';
 })
 export class HomeComponent implements OnInit {
 
-  image = [];
+  image: Media[];
+  //image = [];
 
   constructor(private wordPressServ: WordpressApiService) { }
 
   ngOnInit() {
-    this.wordPressServ.getImage().subscribe(
+    //1er Método
+
+    this.wordPressServ.getMedia().subscribe((response: Media[])=>{
+      if(response){
+         this.image = response;
+         console.log(this.image);
+      }
+    });
+    
+
+    //////////////////////////////////////////
+    //2do Método
+    /*this.wordPressServ.getImage().subscribe(
     response =>{
        for (let img in response){
         if(response.hasOwnProperty(img)){
@@ -24,7 +37,8 @@ export class HomeComponent implements OnInit {
         }
        }
     }
-    );
+    );*/
+    /////////////////////////////////////////
     
   }
 
